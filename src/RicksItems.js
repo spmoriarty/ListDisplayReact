@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
 
-export default function RickItems() {
+export default function RickItems({ name, dimension, type }) {
   return (
-    <div>RickItems</div>
-  )
+    <div>
+      <p>{name}</p>
+      <p>{dimension}</p>
+      <p>{type}</p>
+
+    </div>
+  );
 }
 

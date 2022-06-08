@@ -1,4 +1,3 @@
-import React from 'react';
 
 export const ricks = [
   {
@@ -17,5 +16,5 @@ export const ricks = [
     name: 'Doofus Rick',
     dimension: 'J19-Zeta 7',
     type: 'Underachieving Rick',
-  }
+  },
 ];
