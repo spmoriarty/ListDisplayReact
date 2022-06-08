@@ -1,11 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Ricks from './ricks.js';
+import RicksList from './RicksList.js';
+
 // import your arrays here
 
 function App() {
   return (
-    <div className="App">
-        Render all your lists here. Pass the arrays as props.
+    <div>
+      <RicksList ricks={ricks} />
     </div>
   );
 }
