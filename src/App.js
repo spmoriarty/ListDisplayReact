@@ -13,8 +13,7 @@ function App() {
   return (
     <><div>
       <RicksList ricks={ricks} />
-    </div>
-    <div>
+      <hr/>
       <MortyList mortysisms={mortysisms} />
 
     </div>
