@@ -5,7 +5,7 @@ export default function MortyList({ mortysisms }) {
   return (
     <div> 
       { 
-        mortysisms.map((mortyism, i) => <MortyItems mortyisms={mortyism} key={mortyism + i} />)
+        mortysisms.map((mortyism, i) => <MortyItems {...mortyism} key={mortyism.says + i} />)
       }
     </div>
   );
