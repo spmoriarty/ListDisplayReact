@@ -1,8 +1,12 @@
 
 import React from 'react'
+import RickItems from './RicksItems'
 
 export default function RicksList({ ricks }) {
   return (
-    <div>Ricks</div>
+    <div>
+      ricks.map((rick, i) => <RickItems
+      key={rick + i} />)
+    </div>
   )
 }
