@@ -8,10 +8,16 @@ import RicksList from './RicksList.js';
 function App() {
   
   return (
-    <div>
-    
+    <><div>
       <RicksList ricks={ricks} />
     </div>
+    <div>
+
+    </div>
+    
+    
+    
+    </>
   );
 }
 
