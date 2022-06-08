@@ -1,9 +1,9 @@
-import React from 'react';
 
-export default function MortyItems({ mortyisms }) {
-  return <div> 
-    {mortyisms}
+export default function MortyItems({ mortysisms }) {
+  return (<div> 
+    <p>Classic Morty lines: {mortysisms}</p>
     
-  </div>;
+  </div>);
+      
 }
 
