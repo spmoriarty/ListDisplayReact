@@ -1,9 +1,9 @@
 
 import './App.css';
-import { ricks } from './ricks.js';
 import RicksList from './RicksList.js';
-import { mortysisms } from './mortyisms.js';
+import { ricks } from './ricks.js';
 import MortyList from './MortyList.js';
+import { mortysisms } from './mortyisms.js';
 import EpisodeList from './EpisodeList.js';
 import { episodes } from './episodes.js';
 

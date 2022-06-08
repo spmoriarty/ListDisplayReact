@@ -1,12 +1,17 @@
+
 import EpisodeItem from './EpisodeItem.js';
 
 
 export default function EpisodeList({ episodes }) {
   
-  return (<div>
-    {
-      episodes.map((episode, i) => <EpisodeItem key={episode.title + i} {...episode.title.character} />)
-    }
-  </div>);
+  return (
+    <div>
+      {
+        episodes.map((episode, i) => <EpisodeItem {...episode} key={ episode.title.characters + i } />)
+      }
+    </div>
+  );
 }
 
+
+// episodes.map((episode, i) => <EpisodeItem {...episode} key={episode.title.characters + i} />)
