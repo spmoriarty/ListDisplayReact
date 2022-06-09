@@ -21,6 +21,8 @@ function App() {
       <MortyList mortysisms={mortysisms} />
       <hr />
       <EpisodeList episodes={episodes} />
+      <hr />
+
 
     </div>
     
