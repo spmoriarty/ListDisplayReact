@@ -6,6 +6,8 @@ import MortyList from './MortyList.js';
 import { mortysisms } from './mortyisms.js';
 import EpisodeList from './EpisodeList.js';
 import { episodes } from './episodes.js';
+import MovieList from './MovieList.js';
+import { movies } from './movies.js';
 
 
 
@@ -22,7 +24,7 @@ function App() {
       <hr />
       <EpisodeList episodes={episodes} />
       <hr />
-
+      <MovieList movies={movies} />
 
     </div>
     
